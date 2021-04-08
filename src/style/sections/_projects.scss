@@ -3,6 +3,7 @@
   color: $dark-blue-text;
   margin-top: -15rem;
   padding-top: 15rem;
+  font-family: monospace!important;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -35,6 +36,7 @@
       }
 
       &-title {
+        
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
