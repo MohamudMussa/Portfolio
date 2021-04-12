@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'projectThree.jpg',
     title: 'MERN - Cinema Project ',
     info: 'I was part of a team that was tasked to create a full-stack web application using the MERN stack. The data layer was created using MongoDB with the back end being built using Node for the database and Express to construct an API. I tasked with setting up the initial backend using mongoDB and then worked heavily on the frontend which was built using React. I also lead the design aspect of the website, designing our custom images on Photoshop and ensuring that the interface works seamlessly. This web application was developed and implemented with the goal of providing an informative and visually appealing webpage for users to interact with. his project was a great experience for us to successfully incorporate an agile methodology and understand its benefits for application development.',
-    info2: 'Tech Used - React, MongoDB, Javascript',
+    info2: 'Tech Used - React, MongoDB, Javascript, Node',
     url: 'https://github.com/MohamudMussa/QACinemasProject',
     repo: 'https://github.com/MohamudMussa/QACinemasProject', // if no repo, the button will not show up
   },
