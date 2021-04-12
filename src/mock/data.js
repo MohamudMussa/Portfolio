@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'newlogo.png',
-  paragraphOne: 'asdad  ',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `Hi, my name's Mohamud and I'm a full-stack developer who's passionate about design!. I've just finished an intensive 3+ months programming course and I'm now looking for my first dev role. In those three months, I created various real work projects using Java, MERN Stack and many more!`,
+  paragraphTwo: `I'm a developer, because I'm inspired by the idea of being a better me today than I was yesterday. Put simply, I love to learn and this project is a great example of that! I picked up Gatsby and GraphQl so I could implement a Contentful CMS and I  also worked in some snazzy GSAP animations!`,
+  paragraphThree: `When I'm not busy building apps, you can find me going on long walks while listening to my faviourte podcasts, playing basketball or trying to design side projects! `,
+  resume: `https://drive.google.com/file/d/0Bxyq39w9wGk2U2pyOGxXaV8yczVNUUhsMzVTQ0psbkdiN293/view?usp=sharing`, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,6 +59,15 @@ export const projectsData = [
     info2: 'Tech Used - React, Firebase, TailwindCSS',
     url: '',
     repo: 'https://github.com/deendevelopers/team-10-community-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'FireBase.JPG',
+    title: 'Hosted ToDoList',
+    info: `I created a ToDoList webb-app using React for the frontend and Firebase for the backend to host the database. I then styled the components using Material UI to make it look minimalistic. After completing the project, I deployed it using Firebase and it is currently LIVE!`,
+    info2: 'Tech Used - React, Firebase, Material UI',
+    url: `https://todolist-f6938.web.app/`,
+    repo: `https://github.com/MohamudMussa/Hosted-ToDo`, // if no repo, the button will not show up
   },
 ];
 
