@@ -28,9 +28,10 @@ function App() {
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
+      <Skills />
       <About />
       <Projects />
-      {/* <Skills /> */}
+
       <Contact />
       <Footer />
     </PortfolioProvider>

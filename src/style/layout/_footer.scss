@@ -6,6 +6,13 @@
     border: 0px;
   }
 
+  .skillz{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    background-color:black!important;
+  }
+
   &__text {
     color: darken(white, 50%);
     font-size: 1.3rem;
