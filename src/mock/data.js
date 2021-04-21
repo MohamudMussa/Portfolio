@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'todo.jpg',
     title: 'Full Stack (Java Spring Boot) ToDo List',
     info: 'For this project I created a full-stack web application which allows users to Create, Update and Delete their Tasks from their To-Do List. The structure of this project followed a three-tier architecture: the front end was built using visual studio code and written in JavaScript, HTML and CSS. The backend was built using Spring and written in Java and finally the locally hosted database was built using SQL. The application was then fully tested with Unit, Automated and Integration testing. Finally, it was linked to SonarQube to allow static analysis and improvement of the code.',
-    info2: 'Java Spring Boot, JavaScript, HTML, CSS',
+    info2: 'Tech Used: Java Spring Boot, JavaScript, HTML, CSS',
     url: 'https://github.com/MohamudMussa/ToDoList-Project',
     repo: 'https://github.com/MohamudMussa/ToDoList-Project', // if no repo, the button will not show up
   },

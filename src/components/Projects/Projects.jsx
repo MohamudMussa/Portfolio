@@ -32,7 +32,7 @@ const Projects = () => {
 
             return (
               <Row key={id}>
-                <Col lg={12} sm={12}>
+                <Col lg={6} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -72,7 +72,7 @@ const Projects = () => {
                   </Fade>
                 </Col>
 
-                <Col lg={12} sm={12}>
+                <Col lg={6} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -87,8 +87,6 @@ const Projects = () => {
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <br />
-                        <br />
                         <Tilt
                           options={{
                             reverse: false,
